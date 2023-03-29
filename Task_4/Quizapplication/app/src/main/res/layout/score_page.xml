@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/idBottomScore">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="Your Marks is"
+        android:layout_margin="10dp"
+        android:padding="3dp"
+        android:id="@+id/idScore"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Retake Quiz"
+        android:textColor="@color/colorWhite"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimary"
+        android:id="@+id/idReset"
+        />
+
+</LinearLayout>
